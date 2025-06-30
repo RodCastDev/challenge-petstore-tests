@@ -1,0 +1,173 @@
+{
+    "metrics": {
+        "vus_max": {
+            "min": 15,
+            "max": 15,
+            "value": 15
+        },
+        "http_req_duration": {
+            "p(95)": 4.3781,
+            "avg": 2.56681206349206,
+            "min": 0.5912,
+            "med": 2.5164,
+            "max": 6.5413,
+            "p(90)": 3.4792,
+            "thresholds": {
+                "p(95)<600": false
+            }
+        },
+        "http_req_sending": {
+            "max": 1.6964,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0.011855238095238096,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_receiving": {
+            "p(90)": 0.5042,
+            "p(95)": 0.5643,
+            "avg": 0.08898793650793654,
+            "min": 0,
+            "med": 0,
+            "max": 1.5692
+        },
+        "group_duration": {
+            "avg": 2010.1513485714263,
+            "min": 2006.7744,
+            "med": 2008.1929,
+            "max": 2022.5692,
+            "p(90)": 2019.7163,
+            "p(95)": 2019.7163
+        },
+        "iteration_duration": {
+            "min": 3007.612,
+            "med": 3008.9799,
+            "max": 3023.3404,
+            "p(90)": 3022.0136,
+            "p(95)": 3023.3404,
+            "avg": 3011.0745142857136
+        },
+        "http_req_waiting": {
+            "avg": 2.465968888888885,
+            "min": 0.5912,
+            "med": 2.3416,
+            "max": 6.5413,
+            "p(90)": 3.4792,
+            "p(95)": 3.8739
+        },
+        "vus": {
+            "min": 15,
+            "max": 15,
+            "value": 15
+        },
+        "http_req_blocked": {
+            "p(95)": 0.09282000000000352,
+            "avg": 0.3741869841269841,
+            "min": 0,
+            "med": 0,
+            "max": 7.8373,
+            "p(90)": 0
+        },
+        "checks": {
+            "passes": 420,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_reqs": {
+            "count": 315,
+            "rate": 14.943962985274363
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(90)": 3.4792,
+            "p(95)": 4.3781,
+            "avg": 2.56681206349206,
+            "min": 0.5912,
+            "med": 2.5164,
+            "max": 6.5413
+        },
+        "http_req_connecting": {
+            "avg": 0.11624285714285712,
+            "min": 0,
+            "med": 0,
+            "max": 2.4411,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "data_received": {
+            "rate": 5706.459008519767,
+            "count": 120285
+        },
+        "iterations": {
+            "count": 105,
+            "rate": 4.981320995091454
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "data_sent": {
+            "count": 37134,
+            "rate": 1761.6797507783433
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 315,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        }
+    },
+    "root_group": {
+        "checks": {},
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+                "Full CRUD flow for pet entity": {
+                    "name": "Full CRUD flow for pet entity",
+                    "path": "::Full CRUD flow for pet entity",
+                    "id": "cf14350a6a9706aab03f783fef5c7514",
+                    "groups": {},
+                    "checks": {
+                            "Create OK": {
+                                "name": "Create OK",
+                                "path": "::Full CRUD flow for pet entity::Create OK",
+                                "id": "0797fa7e6ff25736f55f9872e6efc999",
+                                "passes": 105,
+                                "fails": 0
+                            },
+                            "Get OK": {
+                                "name": "Get OK",
+                                "path": "::Full CRUD flow for pet entity::Get OK",
+                                "id": "8efb5c9d6c03f6ab7e4c0c8cf24789f0",
+                                "passes": 105,
+                                "fails": 0
+                            },
+                            "Correct name returned": {
+                                "name": "Correct name returned",
+                                "path": "::Full CRUD flow for pet entity::Correct name returned",
+                                "id": "93a9762a065c69285d33a40847cd2bbd",
+                                "passes": 105,
+                                "fails": 0
+                            },
+                            "Delete OK": {
+                                "name": "Delete OK",
+                                "path": "::Full CRUD flow for pet entity::Delete OK",
+                                "id": "c09bd1e9082e8f74e963358e4088e960",
+                                "passes": 105,
+                                "fails": 0
+                            }
+                        }
+                }
+            }
+    }
+}

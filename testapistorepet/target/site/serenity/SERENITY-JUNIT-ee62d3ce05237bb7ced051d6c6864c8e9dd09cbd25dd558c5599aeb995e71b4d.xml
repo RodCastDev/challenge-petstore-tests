@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Retrieve pet information by ID" skipped="0" tests="6" time="0.01" timestamp="2025-06-30 08:43:14"><testcase name="Validate pet retrieval using dynamic or manual IDs"/></testsuite>

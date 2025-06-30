@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete pet using session ID","Reset the list of valid pet IDs","SUCCESS","2025-06-30T08:43:15.5561946-05:00[America/Bogota]","0.0","0.02"
+"Delete pet using session ID","Delete a pet with valid or manual ID","SUCCESS","2025-06-30T08:43:15.5827053-05:00[America/Bogota]","0.0","0.01"
