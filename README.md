@@ -1,19 +1,19 @@
 # 🧪 challenge-petstore-tests
 
-Este repositorio contiene dos proyectos independientes diseñados para probar y validar la API Swagger Petstore:
+This repository contains **two independent projects** designed to test and validate the **Swagger Petstore API**:
 
-1. **Automatización de pruebas funcionales (API Test Automation)**
-2. **Pruebas de rendimiento (Performance Testing con K6)**
+1. **API Test Automation**
+2. **Performance Testing with K6**
 
 ---
 
-## 🔍 Proyecto 1: API Test Automation
+## 🔍 Project 1: API Test Automation
 
-### 🧭 Descripción
+### 🧭 Overview
 
-Framework profesional de automatización de pruebas para la API Swagger Petstore, usando **Serenity BDD**, **Cucumber** y el **patrón Screenplay**.
+A professional API test automation framework for the Swagger Petstore API, built using **Serenity BDD**, **Cucumber**, and the **Screenplay Pattern**.
 
-### 🚀 Tecnologías utilizadas
+### 🚀 Technologies Used
 
 - Java 17+
 - Serenity BDD
@@ -23,28 +23,27 @@ Framework profesional de automatización de pruebas para la API Swagger Petstore
 - Screenplay Pattern
 - Serenity Reports (HTML)
 
-### ✅ Escenarios implementados
+### ✅ Implemented Scenarios
 
-- **Registro de mascotas (POST /pet)**
-- **Consulta de mascotas por ID (GET /pet/{id})**
-- **Eliminación de mascotas por ID (DELETE /pet/{id})**
+- **Pet Registration (POST /pet)**
+- **Pet Retrieval by ID (GET /pet/{id})**
+- **Pet Deletion by ID (DELETE /pet/{id})**
 
-Incluye validaciones de datos válidos, casos negativos, inputs faltantes o inválidos, y manejo de IDs dinámicos mediante sesión compartida.
+Covers valid data, negative cases, missing/invalid input validation, and dynamic ID management using session sharing.
 
-### 🧠 Buenas prácticas
+### 🧠 Best Practices Applied
 
-- Código limpio y estructurado
-- Alta reutilización y bajo acoplamiento
-- Centralización de validaciones
-- Sin Postman ni datos quemados
+- Clean, structured code
+- High reusability and low coupling
+- Centralized validations
+- No Postman or hardcoded data
 
-### ▶️ Cómo ejecutar
+### ▶️ How to Run
 
 `bash
 cd automation
 ./gradlew clean test --tests runners.PetStoreSuite
 ./gradlew aggregate
-
 
 # 🧪 Performance Testing Project - Petstore API
 
