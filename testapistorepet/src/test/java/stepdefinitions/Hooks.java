@@ -9,7 +9,5 @@ public class Hooks {
     public void resetValidPetIdsBeforeScenario() {
         SharedPetData.resetValidPetIds();
 
-        System.out.println("🔄 Lista de IDs válidos reiniciada.");
-        System.out.println("📋 IDs actuales en la lista: " + SharedPetData.getCurrentIds());
     }
 }
