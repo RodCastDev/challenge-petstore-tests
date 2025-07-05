@@ -4,7 +4,7 @@ buildscript {
         maven { url "https://plugins.gradle.org/m2/" }
     }
     dependencies {
-        classpath "net.serenity-bdd:serenity-gradle-plugin:3.3.10" // 👈 Versión que sí existe
+        classpath "net.serenity-bdd:serenity-gradle-plugin:3.3.10"
     }
 }
 
